@@ -1,1 +1,0 @@
-# TIK204-2023-5-sortMyTrash
