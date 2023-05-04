@@ -11,17 +11,14 @@ header {
   text-align: center;
 }
 
+/* Style for the main content */
 main {
   display: flex;
-  justify-content: space-between;
-}
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: auto;
 
-nav {
-  flex-basis: 45%;
-}
-
-div {
-  flex-basis: 45%;
+  padding: 30px 30px;
 }
 
 /* Style for the article headings */
@@ -38,6 +35,11 @@ article img {
 /* Style for the article paragraphs */
 article p {
   line-height: 1.5;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }
 
 .nav-link {
