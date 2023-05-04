@@ -18,7 +18,7 @@ function Beranda() {
                     <img src={Book} class="card-img-top mt-4 logo" alt="Edukasi" />
                     <div class="card-body d-flex flex-column justify-content-center align-items-center">
                         <h5 class="card-title mt-5">Edukasi Sampah</h5>
-                        <a href="#" class="btn btn-primary mt-2">Baca</a>
+                        <a href="/edukasiSampah" class="btn btn-primary mt-2">Baca</a>
                     </div>
                 </div>
                 <div class="card m-5 d-flex flex-column justify-content-center align-items-center" style={{ width: 18 + "rem" }}>

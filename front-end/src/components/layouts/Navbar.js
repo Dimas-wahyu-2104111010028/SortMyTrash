@@ -20,15 +20,15 @@ const Navbar = () => {
                                         Pengaturan akun
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Dashboard akun</a></li>
+                                        <li><a class="dropdown-item" href="/profil">Dashboard akun</a></li>
                                         <li>
                                             <hr class="dropdown-divider" />
                                         </li>
-                                        <li><a class="dropdown-item" href="#">Ganti Password</a></li>
+                                        <li><a class="dropdown-item" href="/ubahSandi">Ganti Password</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Keluar</a>
+                                    <a class="nav-link" href="/login">Masuk</a>
                                 </li>
                             </ul>
                         </div>
