@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Edukasi, Home, Login, Pengaduan, Riwayat, Saran, Sort,  } from '../../pages'
+import { Edukasi, Home, Login, Pengaduan, Riwayat, Saran, Sort } from '../../pages'
 import Daftar from '../../pages/Daftar/register'
 
 const Routingan = () => {

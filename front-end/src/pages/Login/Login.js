@@ -8,7 +8,7 @@ const Login = () => {
           <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
               <div class="wrap">
-                <div class="img" style="background-image: url(images/bg-1.jpeg);"></div>
+                <div class="img"></div>
                 <div class="login-wrap p-4 p-md-5">
                   <div class="d-flex">
                   </div>
