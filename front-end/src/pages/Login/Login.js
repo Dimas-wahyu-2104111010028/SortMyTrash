@@ -1,16 +1,16 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
+import bg from '../../assets/img/bg1.jpg'
 
 const Login = () => {
   const navigate = useNavigate();
 
   return (
-      <section class="ftco-section">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
               <div class="wrap">
-                <div class="img"></div>
+                <div class="img" style={{backgroundImage: bg}}></div>
                 <div class="login-wrap p-4 p-md-5">
                   <div class="d-flex">
                   </div>
@@ -36,7 +36,6 @@ const Login = () => {
             </div>
           </div>
         </div>
-      </section>
   )
 }
 
