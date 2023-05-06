@@ -1,19 +1,19 @@
 /* center the buttons */
-.btn-group {
+/* .btn-group {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} */
 
 /* add margin between buttons */
-.btn-group .btn {
+/* .btn-group .btn {
   margin-bottom: 10px;
   background-color: #bdb76b;
-}
+} */
 
 /* adjust button size */
-.btn-lg {
+/* .btn-lg {
   padding: 15px 30px;
   font-size: 24px;
 }
@@ -25,4 +25,28 @@
 .btn-home:hover {
   background-color: #68653b;
   color: #ffffff;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.sortir-container {
+  background-image: url('../../assets/img/sort.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 500px;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+              -15px -15px 30px rgb(60, 60, 60);
+ }
+ 
