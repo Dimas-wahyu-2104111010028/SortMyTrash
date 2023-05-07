@@ -6,6 +6,7 @@ import Register from "./Daftar/Daftar";
 import Profil from "./Profil/Profil";
 import Beranda from "./Beranda/Beranda";
 import SortingSampah from "./Sorting/SortingSampah";
+import HasilSorting from "./Sorting/HasilSorting";
 import Edukasi from "./Edukasi/Edukasi"
 
-export { Beranda, Login, Pengaduan, Riwayat, SortingSampah, Saran, Register, Edukasi, Profil }
+export { Beranda, Login, Pengaduan, Riwayat, SortingSampah, HasilSorting, Saran, Register, Edukasi, Profil }

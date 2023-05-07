@@ -1,3 +1,4 @@
+
 const SortingSampah = () => {
     return (
             <div class="container  mt-3">
@@ -5,7 +6,7 @@ const SortingSampah = () => {
                     <div class="col-md-6">
                         <h2>Sorting Sampah</h2>
 
-                        <form method="post" action="/SortingSampah">
+                        <form method="get" action="/hasil-sorting">
                             <div class="mb-3 mt-5">
                                 <label for="namaSampah" class="form-label">Masukkan Nama Sampah</label>
                                 <input type="text" class="form-control" id="namaSampah" name="namaSampah" required />
@@ -19,4 +20,4 @@ const SortingSampah = () => {
     )
 }
 
-export default SortingSampah
+export default SortingSampah 
