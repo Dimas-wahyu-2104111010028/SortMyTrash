@@ -18,7 +18,7 @@ header {
   align-items: center;
   background-color: #bdb76b;
   color: #fff;
-  height: 80px;
+  height: 60px;
   padding: 0 20px;
 }
 
@@ -80,5 +80,5 @@ section li {
   color: #ffffff;
 }
 .nav-link:hover {
-    font-style: italic;
+  font-style: italic;
 }
