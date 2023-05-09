@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom"
 
 const SortingSampah = () => {
+    const Navigate = useNavigate()
     return (
             <div class="container  mt-3">
                 <div class="row">
@@ -12,7 +14,7 @@ const SortingSampah = () => {
                                 <input type="text" class="form-control" id="namaSampah" name="namaSampah" required />
                             </div>
 
-                            <button type="submit" class="btn btn-primary">Cari Jenis Sampah</button>
+                            <button type="submit" class="btn btn-primary" onClick={Navigate('/Hasil-sorting')}>Cari Jenis Sampah</button>
                         </form>
                     </div>
                 </div>

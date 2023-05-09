@@ -1,24 +1,23 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Beranda, Edukasi, Login, Pengaduan, Profil, Riwayat, Saran, SortingSampah, HasilSorting } from '../../pages'
-import Daftar from '../../pages/Daftar/Daftar'
-import UbahSandi from '../../pages/UbahSandi/ubahSandi'
+import { Beranda, SortingSampah, HasilSorting, LoginUser, LokasiPembuanganUser, PengaduanUser, RiwayatUser, SaranUser, Edukasi, ProfilUser } from '../../pages'
+import DaftarAkunUSer from '../../pages/daftar-akun-user/DaftarAkunUser'
 
 const Routingan = () => {
   return (
     <Router>
         <Routes>
-            <Route path='/login' element={<Login />} />
-            <Route path='/daftar' element={<Daftar />}/>
+            <Route path='/login' element={<LoginUser />} />
+            <Route path='/daftar' element={<DaftarAkunUSer />}/>
             <Route path='/' element={ <Beranda />} />
             <Route path='/sortir' element= {<SortingSampah />} />
             <Route path='/hasil-sorting' element= {<HasilSorting />} />
-            <Route path='/riwayat' element= {<Riwayat />}/>
-            <Route path='/pengaduan' element={<Pengaduan />}/>
-            <Route path='/saran' element={<Saran />} />
-            <Route path='/edukasiSampah' element={<Edukasi />}/>
-            <Route path='/profil' element={<Profil />}/>
-            <Route path='/ubahSandi' element={<UbahSandi />}/>
+            <Route path='/pengaduan' element= {<PengaduanUser />} />
+            <Route path='/riwayat' element= {<RiwayatUser />}/>
+            <Route path='/saran' element={<SaranUser />} />
+            <Route path='/edukasi-sampah' element={<Edukasi />}/>
+            <Route path='/profil' element={<ProfilUser />}/>
+            <Route path='/lokasi' element={<LokasiPembuanganUser />}/>
         </Routes>
     </Router>
   )
