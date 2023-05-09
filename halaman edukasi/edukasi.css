@@ -27,3 +27,17 @@ header {
 .card {
   background-color: #d9d9d9;
 }
+
+@media screen and (min-width: 576px) {
+  /* Kode CSS untuk layar dengan lebar >= 576px */
+  .name {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Kode CSS untuk layar dengan lebar >= 992px */
+  .container-fluid {
+    max-width: 992px;
+  }
+}
