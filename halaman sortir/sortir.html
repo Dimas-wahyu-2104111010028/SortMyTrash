@@ -49,7 +49,7 @@
                 <option value="plastik">Sampah Plastik</option>
                 <option value="kardus">Sampah Kardus</option>
                 <option value="elektronik">Sampah Elektronik</option>
-                <option value="Besi">Sampah Besi</option>
+                <option value="besi">Sampah Besi</option>
                 <option value="aluminium">Sampah Aluminium</option>
               </select>
             </div>
@@ -67,17 +67,17 @@
       form.addEventListener("submit", (event) => {
         event.preventDefault();
         if (select.value === "Kertas") {
-          window.location.href = "kertas.html";
+          window.location.href = "sampah kertas.html";
         } else if (select.value === "plastik") {
-          window.location.href = "plastik.html";
+          window.location.href = "sampah plastik.html";
         } else if (select.value === "kardus") {
-          window.location.href = "kardus.html";
+          window.location.href = "sampah kardus.html";
         } else if (select.value === "elektronik") {
-          window.location.href = "elektronik.html";
+          window.location.href = "sampah elektronik.html";
         } else if (select.value === "besi") {
-          window.location.href = "besi.html";
+          window.location.href = "sampah besi.html";
         } else if (select.value === "aluminium") {
-          window.location.href = "aluminium.html";
+          window.location.href = "sampah aluminium.html";
         } else {
           form.submit();
         }

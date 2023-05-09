@@ -21,7 +21,10 @@ header {
   height: 60px;
   padding: 0 20px;
 }
-
+.bi-arrow-left {
+  color: #282c34;
+  margin: auto;
+}
 header img {
   margin-left: 10px;
 }
@@ -36,7 +39,6 @@ main {
 /* Set section style */
 section {
   margin: 40px 0;
-  margin-right: 20px;
 }
 
 section h2 {
