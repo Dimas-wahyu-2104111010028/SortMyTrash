@@ -7,7 +7,7 @@ import { auth } from '../../config/firebase/firebase'
 const DaftarAkunUSer = () => {
 	const navigate = useNavigate()
 
-	const [namaLengkap, setNamaLenglap] = useState('')
+	const [namaLengkap, setNamaLengkap] = useState('')
 	const [email, setEmail] = useState('')
 	const [noTelp, setNoTelp] = useState('')
 	const [password, setPassword] = useState('');
@@ -38,7 +38,7 @@ const DaftarAkunUSer = () => {
 						type='text'
 						placeholder='Nama Lengkap'
 						value={namaLengkap}
-						onChange={(e) => setNamaLenglap(e.target.value)}
+						onChange={(e) => setNamaLengkap(e.target.value)}
 						required />
 				</div>
 				<div class="form-daftar">

@@ -1,13 +1,10 @@
 import React from 'react'
 import './button.css'
 
-const Button = (props) => {
-  const onLink = () => {
-
-  }
+const Button = (props, ...rest) => {
   return (
     <div>
-        <button className='button'>{props.title}</button>
+        <button className='button' {...rest}>{props.title}</button>
     </div>
   )
 }
