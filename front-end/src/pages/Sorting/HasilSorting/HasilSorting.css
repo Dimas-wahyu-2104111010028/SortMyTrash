@@ -1,51 +1,30 @@
-* {
-    padding: 0;
-    margin: 0;
+.hasil-sorting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-nav {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #bdb76b;
+.hasil-sorting-content {
+    padding: 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
-main {
-    padding: 20px;
+.hasil-sorting-img {
+    width: 200px;
+    height: auto;
 }
 
-main img {
-    width: 100%;
-}
-
-main article {
-    padding: 10px;
-    background-color: lightgrey;
-    margin: 20px 0;
-}
-
-main article p {
-    margin-bottom: 15px;
-}
-
-main .btn-wrapper {
+.hasil-sorting-pagination {
     display: flex;
     justify-content: space-between;
-    gap: 5px;
-}
-
-main .btn-wrapper button {
-    width: 100%;
-    padding: 15px 0;
-    border: 1px solid black;
-    border-radius: 20px;
-    background-color: #bdb76b;
-
-}
-
-.btn-wrapper button:hover {
-    color: black;
-    border: white;
-
+    width: 80%;
+    padding: 20px;
+    margin-top: 40px;
 }

@@ -11,7 +11,7 @@ const SortingSampah = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        Navigate('edukasi-sampah', input)
+        Navigate('/sortir' + input)
     }
     
 
