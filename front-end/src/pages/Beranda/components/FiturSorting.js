@@ -1,8 +1,10 @@
 import React from 'react'
 import { Button, Gap } from '../../../components'
 import sortir from '../../../assets/img/sortir.svg'
+import { useNavigate } from 'react-router-dom'
 
 const FiturSorting = () => {
+    const Navigate = useNavigate()
     return (
         <div className="fitur-sortir-container flex aic vh">
             <div className='card flex column aic jcc'>
@@ -15,7 +17,7 @@ const FiturSorting = () => {
                 </div>
                 <Gap height="20" />
                 <div className='card-description'>
-                    <Button title="Sortir" />
+                    <button className="button" onClick={() => Navigate('/sortir')}>Sortir</button>
                 </div>
             </div>
         </div>

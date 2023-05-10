@@ -1,8 +1,10 @@
 import React from 'react'
 import { Button, Gap } from '../../../components'
 import lokasi from '../../../assets/img/lokasi.svg'
+import { useNavigate } from 'react-router-dom'
 
 const FiturLokasi = () => {
+    const Navigate = useNavigate()
     return (
         <div className="fitur-lokasi-container flex aic vh">
             <div className='card flex column aic jcc'>
@@ -15,7 +17,7 @@ const FiturLokasi = () => {
                 </div>
                 <Gap height="20" />
                 <div className='card-description'>
-                    <Button title="Lokasi" />
+                    <button className="button" onClick={() => Navigate('/lokasi')}>Lokasi</button>
                 </div>
             </div>
         </div>

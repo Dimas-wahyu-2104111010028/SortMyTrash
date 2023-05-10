@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
+  max-width: 1519px;
+  overflow: hidden;
 }
 
 .fitur-sortir-container {
@@ -30,7 +33,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 90%;
   height: 500px;
   overflow: hidden;
   z-index: 1;
@@ -56,6 +59,7 @@
   width: 400px;
   position: relative;
   background-color: azure;
+  overflow: hidden;
 }
 
 .fitur-sortir-container .card, 

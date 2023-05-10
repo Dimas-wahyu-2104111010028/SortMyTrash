@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 1519px;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
