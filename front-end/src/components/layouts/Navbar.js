@@ -14,12 +14,12 @@ const Navbar = () => {
                     </div>
                 </a>
                 <div className="menuu">
-                    <a href="#sort">
+                    <a href="/sortir">
                         <div className="menu-item">
                             SORTIR
                         </div>
                     </a>
-                    <a href="/edukasiSampah">
+                    <a href="/edukasi-sampah">
                         <div className="menu-item">
                             EDUKASI
                         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                             PENGADUAN
                         </div>
                     </a>
-                    <a href="#footer">
+                    <a href="/lokasi">
                         <div className="menu-item">
                             LOKASI
                         </div>

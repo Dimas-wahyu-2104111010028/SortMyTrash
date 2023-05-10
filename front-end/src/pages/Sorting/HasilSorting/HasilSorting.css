@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #bdb76b;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 100%;
+}
+
+main article {
+    padding: 10px;
+    background-color: lightgrey;
+    margin: 20px 0;
+}
+
+main article p {
+    margin-bottom: 15px;
+}
+
+main .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+main .btn-wrapper button {
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #bdb76b;
+
+}
+
+.btn-wrapper button:hover {
+    color: black;
+    border: white;
+
+}
