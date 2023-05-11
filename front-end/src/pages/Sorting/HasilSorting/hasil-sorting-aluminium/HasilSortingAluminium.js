@@ -3,12 +3,14 @@ import img from '../../../../assets/img/sampah-aluminium.jpg'
 import '../HasilSorting.css'
 import { Gap } from '../../../../components'
 import { useNavigate } from 'react-router-dom'
+import NavbarUser from '../../../../components/layouts/Navbar-user/NavbarUser'
 
 const HasilSortingAluminium = () => {
     const Navigate = useNavigate()
 
     return (
         <main className='hasil-sorting-container'>
+            <NavbarUser title='Sortir Sampah' pindah='/sortir'/>
             <section className='hasil-sorting-content'>
                 <img className='hasil-sorting-img' src={img} alt='besi' />
                 <article>
