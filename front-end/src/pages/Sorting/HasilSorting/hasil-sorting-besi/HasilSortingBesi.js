@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import img from '../../../../assets/img/sampah-besi.jpg'
 import '../HasilSorting.css'
-import { Button, Gap } from '../../../../components'
+import { Gap } from '../../../../components'
 import { useNavigate } from 'react-router-dom'
 
 const HasilSortingBesi = () => {
@@ -12,17 +12,22 @@ const HasilSortingBesi = () => {
             <section className='hasil-sorting-content'>
                 <img className='hasil-sorting-img' src={img} alt='besi' />
                 <article>
-                    <h2>Jenis sampah: Botol Plastik</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sed sequi beatae reiciendis explicabo rem consequatur nulla iusto voluptas dolorum amet nostrum, aliquam non mollitia tenetur quia, possimus dolor aperiam hic quae voluptates et. Quasi, maiores assumenda. Enim cupiditate nam atque, hic illo delectus, impedit earum cumque quasi, aperiam rem?</p>
+                    <h2>Besi (Anorganik)</h2>
+                    <Gap height='10' />
+                    <p className='p-sorting'>Sampah besi adalah limbah yang berasal dari bahan logam besi atau baja yang tidak lagi digunakan atau rusak dan tidak bisa digunakan kembali. Sampah besi dapat berasal dari berbagai sumber seperti pabrik, konstruksi, kendaraan bekas, dan lain-lain.</p>
+                    <p className='p-sorting'>Sampah besi dapat didaur ulang untuk digunakan kembali sebagai bahan baku dalam produksi baja baru. Proses daur ulang besi membutuhkan energi yang lebih sedikit daripada proses produksi baja dari bijih besi. Oleh karena itu, daur ulang besi dapat membantu mengurangi dampak lingkungan dari proses produksi baja.
+                        Untuk memulai pengolahan sampah besi, sampah besi harus dikumpulkan terlebih dahulu dan dipisahkan dari bahan lain seperti plastik, kertas, dan bahan non-logam lainnya. Setelah itu, sampah besi akan dibawa ke pabrik daur ulang besi untuk diproses menjadi baja baru.</p>
+                    <p className='p-sorting'>Dalam proses daur ulang besi, sampah besi akan dilebur di dalam tungku peleburan dengan tambahan bahan-bahan lain seperti batu kapur, kokas, dan lain-lain. Setelah dilebur, baja cair yang dihasilkan kemudian dapat dicetak menjadi berbagai bentuk dan ukuran sesuai kebutuhan.
+                        Sampah besi adalah sumber daya yang berharga dan dapat didaur ulang untuk mengurangi dampak lingkungan dari produksi baja. Selain itu, daur ulang besi juga dapat membantu mengurangi jumlah sampah yang dibuang ke tempat pembuangan akhir dan memperpanjang umur pakai bahan logam besi.</p>
                 </article>
             </section>
             <Gap height='10' />
             <div class="hasil-sorting-pagination">
-                <button className='button' style={{width: 180 + "px"}}
-                onClick={() => Navigate('/edukasi-sampah')}
+                <button className='button' style={{ width: 180 + "px" }}
+                    onClick={() => Navigate('/edukasi-sampah')}
                 >Baca Edukasi</button>
-                <button className='button' style={{width: 180 + "px"}}
-                onClick={() => Navigate('/pengaduan')}
+                <button className='button' style={{ width: 180 + "px" }}
+                    onClick={() => Navigate('/pengaduan')}
                 >Lapor Pengaduan</button>
             </div>
         </main>
