@@ -1,0 +1,29 @@
+/* Set font family */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the header */
+header {
+  background-color: #bdb76b;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #d5d56f; /* Warna latar belakang tombol */
+  color: black; /* Warna teks tombol */
+  border-radius: 100px;
+  border: 1px solid black; /* Border tombol */
+}
+.btn-primary:hover {
+  background-color: #68653b; /* Warna latar belakang tombol saat dihover */
+  border: 1px solid black; /* Border tombol saat dihover */
+}
+
+.card {
+  background-color: #d9d9d9;
+}
