@@ -1,0 +1,56 @@
+/* index.css */
+/* Gaya untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya untuk navbar */
+.navbar {
+  background-color: #bdb76b;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  max-height: 45px;
+}
+
+/* Gaya untuk gambar */
+.gambar {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.gambar img {
+  width: 246px;
+  height: 246px;
+}
+
+.gambar p {
+  margin: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Gaya untuk tombol */
+.tombol {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-user {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #bdb76b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-user:hover {
+  background-color: #68653b;
+}
