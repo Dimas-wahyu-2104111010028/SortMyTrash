@@ -1,0 +1,55 @@
+/* Style untuk header */
+header {
+  background-color: #bdb76b;
+  color: #ffff;
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.25);
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+  height: 55px;
+}
+
+/* Style untuk tombol back */
+.bi-arrow-left {
+  color: #282c34;
+  margin: auto;
+}
+
+/* Style untuk gambar logo */
+.img {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 0%;
+  width: 200px;
+}
+
+/* Style untuk form */
+.form-label {
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  background-color: #bdb76b;
+  border-color: #bdb76b;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #68653b;
+  border-color: #68653b;
+}
+
+@media (min-width: 576px) {
+  .col-md-6 {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
