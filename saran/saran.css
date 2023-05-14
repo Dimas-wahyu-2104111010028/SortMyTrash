@@ -1,0 +1,14 @@
+.custom-btn {
+  background-color: #bdb76b; /* Ganti dengan warna yang diinginkan */
+}
+.card-custom {
+  background-color: #a9a9a9;
+  border-color: #f5c6cb;
+}
+.card-body {
+  color: black;
+  font-size: 1.2rem;
+}
+.bg-success {
+  background-color: #bdb76b !important;
+}
