@@ -1,41 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* center the buttons */
-  .btn-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  /* add margin between buttons */
-  .btn-group .btn {
-    margin-bottom: 10px;
-    background-color: #bdb76b;
-  }
-  
-  /* adjust button size */
-  .btn-lg {
-    padding: 15px 30px;
-    font-size: 24px;
-  }
-  
-  .btn-home {
-    background-color: #bdb76b;
-  }
-  
-  .btn-home:hover {
-    background-color: #68653b;
-    color: #ffffff;
-  }
-  
-  .img-thumbnail {
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .navbar {
-    border-radius: 0 0 20px 20px;
-  }
+  font-family: Arial, sans-serif;
+}
+
+/* center the buttons */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* add margin between buttons */
+.btn-group .btn {
+  margin-bottom: 10px;
+  background-color: #bdb76b;
+}
+
+/* adjust button size */
+.btn-lg {
+  padding: 15px 30px;
+  font-size: 24px;
+}
+
+.btn-home {
+  background-color: #bdb76b;
+}
+
+.btn-home:hover {
+  background-color: #68653b;
+  color: #ffffff;
+}
+
+.img-thumbnail {
+  border-radius: 50%;
+  object-fit: cover;
+}
